@@ -1,4 +1,4 @@
-# Spark project (using PySpark, Kafka and Pandas)
+# Spark project (using PySpark RDD, Kafka and Pandas)
 
 ## About:
 This project uses Spark (using Python) to deal with streaming data from Kafka. Using RDD, we collect streaming JSON data from a source topic, read it as a Pandas dataframe and publish into a sink topic.
