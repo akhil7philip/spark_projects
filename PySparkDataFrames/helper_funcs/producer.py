@@ -6,7 +6,7 @@ from helper_funcs.data_generator import run
 import logging
 logger = logging.getLogger(__name__)
 
-topic               = 'test_124' 
+topic               = 'test_314' 
 bootstrap_servers   = 'localhost:9092'
 
 class Producer:

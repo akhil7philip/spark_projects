@@ -1,7 +1,7 @@
 import time
 import pandas as pd
 
-from producer import Producer
+from helper_funcs.producer import Producer
 
 sink_topic          = 'test_248'
 bootstrap_servers   = 'localhost:9092'

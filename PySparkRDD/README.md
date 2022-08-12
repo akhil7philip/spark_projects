@@ -5,16 +5,18 @@ This project uses Spark (using Python) to deal with streaming data from Kafka. U
 
 ## Steps:
 
-1. Create a conda env and install pyspark
+1. Create a conda env; install pyspark and dependencies
 
 `conda create -n pyspark_2.4.6 python=3.7.0`
 `conda activate pyspark_2.4.6`
 `pip install pyspark==2.4.6`
 `pip install kafka-python`
 `pip install numpy`
+`pip install pandas`
 
 2. Run the docker YAML file to start zookeeper and kafka
 
+`cd PySparkRDD`
 `docker compose up`
 
 3. Run the producer.py script to produce random data
